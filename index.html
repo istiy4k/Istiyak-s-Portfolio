@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istiyak's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfd799b575.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.jpeg" class ="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sevices">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" "a1">
+                <p>Software <span>Developer</span> </p>
+                <h1>Hi, I'm<span> Ansari Istiyak</span><br> from Mumbai India.</h1>
+            </div>
+        </div>
+<!----------------------about------------------------------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About Me</h1>
+                    <p>I am Ansari Istiyak from Mumbai India. 
+                        I've done my Bachelor's of Engineering from AIKTC, with 7.55 CGPA.
+                        I posses technical skills such as JAVA, SQL, HTML, CSS. 
+                        Currently I am fresher and looking for a good Opportunity in a reputed organisation 
+                        to use my theorotical skills on a great platform and grow with organisation simultaneously.
+                        kindly reach me from the form or contact section below. 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class = "tab-links" onclick="opentab('Projects')">Projects</p>
+                        <p class = "tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>JAVA</span><br>Developer</li>
+                            <li><span>SQL</span><br>DBMS</li>
+                            <li><span>JAVASCRIPT</span><br>Web Developer</li>
+                            <li><span>HTML</span><br>Front End</li>
+                            <li><span>CSS</span><br>Front End</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>My Portfolio website</span></li>
+                            <li><span>Hybrid Solar dryer</span></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>Fullstack Developer</li>
+                            <li><span>2022</span><br>BE from mumbai university</li>
+                            <li><span>2016</span><br>junior college from state board</li>
+                            <li><span>2014</span><br>Schooling from state board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------Services---------------->
+    <div id="sevices">
+        <div class="container">
+            <h1 class="sub-title" >My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>A professional Web Developer, I am skilled at the design and construction of websites.
+                        I ensure that sites meet client's expectations by ensuring websites look good,
+                        run smoothly and offer easy access points with no loading issues between pages or error messages</p>
+                         
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Application Development</h2>
+                    <p>Understanding client requirements and how they translate to new application features.
+                        Collaborating with development team and other IT staff to set specifications for new applications.
+                        Writing high-quality code to program, complete applications on schedule.</p>
+                         
+                </div>
+
+                <div>
+                    <i class="fa-duotone fa-file-code"></i>
+                    <h2>Database management</h2>
+                    <p> A DBMS serves as an interface between the database and its end users or programs,
+                        allowing users to retrieve, update, and manage how the information is organized and optimized.
+                        And I am confident at working with Database Management system.
+                    </p>
+                        
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------------Porfolio-------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" >My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/1.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Now enjoy latest relaesed music on this app.
+                            download it from app/play stores.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/2.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people across the world.
+                            download it from app/playstore.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/3.jpeg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app helps you to the shop from home across the world.
+                            download it from app/playstore.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">BACK TO TOP</a>
+        </div>
+    </div>
+<!------------------------Contact---------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-regular fa-envelope"></i>i_work@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9326759441</p>
+                <div class="social-icon">
+                    <a href="https://instagram.com/istiy4k?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/+919326759441" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/istiy4k/MyPortfolio.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <a href="image/Istiyak.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="Contact_number" name="Contact_number" placeholder="Your contact number" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message"   rows="6" placeholder="your message" ></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span  id="msg" ></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Istiyak Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------js------------------------------->
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby26n9m2JCNtVG8tqmnnA4JnFcQZBtwmRtlDAz9w5Do0tW5RbWjyvTvDGWnwiLNweNb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
